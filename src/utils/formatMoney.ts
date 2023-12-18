@@ -1,0 +1,1 @@
+export const formatMoney = (money: number) => (money / 100).toFixed(2).replace('.', ',');

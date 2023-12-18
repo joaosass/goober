@@ -1,0 +1,28 @@
+:root {
+  --accent-color: #9996F4;
+  --background-color: #121212;
+  --secondary-color: #7F7396;
+  --text-color: #F4F3F6;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

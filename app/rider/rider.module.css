@@ -1,0 +1,10 @@
+.divider :after {
+  background: #333;
+  top: calc(100% + 8px);
+  content: "";
+  display: block;
+  height: 16px;
+  left: 12px;
+  position: absolute;
+  width: 2px;
+}

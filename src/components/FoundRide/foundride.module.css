@@ -1,0 +1,12 @@
+.progress {
+  animation: progress-animation 10s 1 linear;
+}
+
+@keyframes progress-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
